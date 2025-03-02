@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        JS Calculator 
+    </h1>
+    Addition = 
+    <p id="add"></p>
+    <br><br>
+    Substraction = 
+    <p id="substract"></p>
+    <br><br>
+    multiplication = 
+    <p id="multiplication"></p>
+    <br><br>
+    division = 
+    <p id="division"></p>
+    <script>
+        var x = 30;
+        var y = 20;
+        document.getElementById("add").innerHTML=(x+y);
+        document.getElementById("substract").innerHTML=(x-y)
+        document.getElementById("multiplication").innerHTML=(x*y)
+        document.getElementById("division").innerHTML=(x/y)
+    </script>
+</body>
+</html>
